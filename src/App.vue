@@ -6,10 +6,11 @@ import Light from "@/components/Light.vue";
 import OrbitControls from "@/components/OrbitControls.vue";
 import ZhenLie from "@/components/ZhenLie.vue";
 import MeshPhong from "@/components/MeshPhong.vue";
+import Antilias from "@/components/Antilias.vue";
 </script>
 
 <template>
-  <MeshPhong></MeshPhong>
+  <Antilias></Antilias>
 </template>
 
 <style>
