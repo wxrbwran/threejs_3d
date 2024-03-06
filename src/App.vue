@@ -7,10 +7,12 @@ import OrbitControls from "@/components/OrbitControls.vue";
 import ZhenLie from "@/components/ZhenLie.vue";
 import MeshPhong from "@/components/MeshPhong.vue";
 import Antilias from "@/components/Antilias.vue";
+import PointsModel from "@/components/PointsModel.vue";
+import Group from "@/components/Group.vue";
 </script>
 
 <template>
-  <Antilias></Antilias>
+  <Group></Group>
 </template>
 
 <style>
