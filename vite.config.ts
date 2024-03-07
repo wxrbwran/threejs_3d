@@ -7,6 +7,7 @@ function _resolve(dir: string) {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  assetsInclude: ["**/*/glb", "*/*.gltf"],
   resolve: {
     alias: {
       "@": _resolve("src"),

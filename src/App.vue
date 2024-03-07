@@ -9,10 +9,12 @@ import MeshPhong from "@/components/MeshPhong.vue";
 import Antilias from "@/components/Antilias.vue";
 import PointsModel from "@/components/PointsModel.vue";
 import Group from "@/components/Group.vue";
+import Texture from "@/components/Texture.vue";
+import GLTF from "@/components/GLTFL.vue";
 </script>
 
 <template>
-  <Group></Group>
+  <GLTF></GLTF>
 </template>
 
 <style>
