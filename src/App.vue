@@ -1,20 +1,10 @@
 <script setup lang="ts">
-import Lesson1 from "@/components/Lession1.vue";
-import Lesson2 from "@/components/Lession2.vue";
-import First3D from "@/components/First3D.vue";
-import Light from "@/components/Light.vue";
-import OrbitControls from "@/components/OrbitControls.vue";
-import ZhenLie from "@/components/ZhenLie.vue";
-import MeshPhong from "@/components/MeshPhong.vue";
-import Antilias from "@/components/Antilias.vue";
-import PointsModel from "@/components/PointsModel.vue";
-import Group from "@/components/Group.vue";
-import Texture from "@/components/Texture.vue";
-import GLTF from "@/components/GLTFL.vue";
+// import YuanHuDingDian from "@/pkgs/生成曲线,几何体/1生成圆弧顶点/index.vue";
+import QuXian from "@/pkgs/生成曲线,几何体/2曲线/index.vue";
 </script>
 
 <template>
-  <GLTF></GLTF>
+  <QuXian></QuXian>
 </template>
 
 <style>
